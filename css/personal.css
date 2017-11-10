@@ -53,6 +53,7 @@
 /*.main{
 	padding: 0px 10px;
 }*/
+
 .article{
 	float: left;
 	width: 920px;
@@ -97,7 +98,7 @@
 	opacity: 0.6;
 }
 .one-2{
-	margin: 20px 10px;
+	margin: 20px 10px 0px 0px;
 	width: 900px;
 	height: 216px;
 }
@@ -111,25 +112,141 @@
 	width: 440px;
 	height: 220px;
 	margin: 0px 10px;
+	margin-top: 20px;
 }
+.one-3 dl dt{
+	width: 440px;
+	height: 190px;
+}
+
 .one-3 dl dt a img{
 	width: 440px;
 	height: 190px;
 }
-.one-3-1{
+
+.one-3-1 a{
+	display: block;
 	width: 440px;
 	height: 30px;
-	background-color:#7F754F;
 	line-height: 30px;
 	font-size: 12px;
+	overflow: hidden;
+	zoom: 1;
 }
-.one-3-1 a{
+.one-3-1 a strong{
+	float: right;
+}
+.one-3-1 a:hover{
 	color: #ffffff;
+	background-color:#7f7f7f;
 }
+
+.one-3-2{
+	position: absolute;
+	left: 157px;
+	top:75px;
+	width: 86px;
+	height: 40px;
+	padding: 0px 20px;
+	background-color: #6f6e74;
+	opacity: 0.7;
+	display: none;
+}
+.one-3-2 strong{
+	 background:url(../images/ico/whole.png) no-repeat -253px 0; 
+	 width:13px; 
+	 height:11px; 
+	 float:left; 
+	 margin:16px 8px 0 0px;
+}
+.one-3-2 span{
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+/*侧边*/
 .sides{
 	float: right;
 	width: 250px;
-	height: 300px;
 	margin: 0px 10px;
-	background-color: yellow;
+}
+.side-1{
+	border: solid 1px #dddddd;
+	width: 228px;
+	padding: 0px 10px;
+}
+.sides h2{
+	line-height: 50px;
+}
+.danganimg{
+	width: 228px;
+	height: 300px;
+}
+.danganimg img{
+	width:228px;
+	height: 300px;
+}
+.side-2{
+	margin-top: 20px;
+	border: solid 1px #dddddd;
+	width: 228px;
+	padding: 0px 10px;
+}
+.side-2 dl dt{
+	width: 228px;
+	height: 120px;
+}
+.side-2 dl dt img{
+	width: 228px;
+	height: 120px;
+}
+.side-2 dl dd{
+	text-align: center;
+	font-size: 12px;
+	line-height: 26px;
+}
+.side-3{
+	margin-top: 20px;
+	border: solid 1px #dddddd;
+	width: 228px;
+	padding: 0px 10px;
+}
+.side-3 dl{
+	overflow: hidden;
+	zoom: 1;
+	padding: 10px 0px;
+}
+.side-3 dl dt{
+	float:left;
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.side-3 dl dt img{
+	width: 60px;
+	height: 60px;
+}
+.side-3 dl dd{
+	font-size: 12px;
+	line-height: 20px;
+}
+.side-3 dl dd:last-child{
+	overflow: hidden;
+	zoom: 1;
+	height: 11px;
+	line-height: 11px;
+	margin-top:5px;
+}
+.side-3 dl dd strong{
+	float: left;
+	background:url(../images/ico/whole.png) no-repeat -234px -271px; 
+	width:13px; 
+	height:11px; 
+	margin-right:8px; 
+	
+}
+.side-3 dl dd span{
+	color: #ff7700;
 }
