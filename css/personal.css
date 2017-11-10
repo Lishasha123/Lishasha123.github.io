@@ -1,0 +1,135 @@
+.banner{
+	width: 100%px;
+	height: 420px;
+	position: relative;
+}
+.bannerimg{
+   margin-top: 12px;	
+	
+}
+.bannerimg div{
+	width: 100%px;
+	height: 420px;
+}
+.tipspan{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -450px;
+}
+.tipspan span{	
+	display: inline-block;
+	width: 290px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin-right: 10px;
+	background-color:#664b0c;
+	opacity: 0.8;
+	color: #ffffff;
+}
+.tipspan span.active{
+	background-color: #315493;
+	opacity: 0.6;
+}
+/*今日上新*/
+.box{
+	margin-top: 20px;
+}
+.top1{
+	height: 40px;
+		
+}
+.top1 strong{
+	float: left;
+	background:url(../images/ico/whole.png) no-repeat -200px -271px; 
+	width:25px; 
+	height:25px; 
+	margin-right:8px;
+}
+.top1 span{
+	line-height: 25px;
+}
+/*.main{
+	padding: 0px 10px;
+}*/
+.article{
+	float: left;
+	width: 920px;
+}
+
+.one-1 dl{
+	position: relative;
+	float: left;
+	width: 440px;
+	height: 440px;
+	margin: 0px 10px;
+}
+.one-1 dl dt a img{
+	width: 440px;
+	height: 440px;	
+}
+.one-1-1{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.one-1-1 a{
+	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	width: 440px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background-color:#7f754f ;
+}
+.one-1-2{
+	position: absolute;
+	left: 125px;
+	top: 200px;
+	z-index: 999;
+	width: 190px;
+	height: 56px;
+	background-color: #ffffff;
+	line-height: 56px;
+	text-align: center;
+	opacity: 0.6;
+}
+.one-2{
+	margin: 20px 10px;
+	width: 900px;
+	height: 216px;
+}
+.one-2 img{
+	width: inherit;
+	height: inherit;
+}
+.one-3 dl{
+	position: relative;
+	float: left;
+	width: 440px;
+	height: 220px;
+	margin: 0px 10px;
+}
+.one-3 dl dt a img{
+	width: 440px;
+	height: 190px;
+}
+.one-3-1{
+	width: 440px;
+	height: 30px;
+	background-color:#7F754F;
+	line-height: 30px;
+	font-size: 12px;
+}
+.one-3-1 a{
+	color: #ffffff;
+}
+.sides{
+	float: right;
+	width: 250px;
+	height: 300px;
+	margin: 0px 10px;
+	background-color: yellow;
+}

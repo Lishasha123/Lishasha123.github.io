@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/whole.css" />
+		<link rel="stylesheet" href="css/personal.css" />
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-1 clear">
+				<div class="topleft clear">
+					<span>关于我们</span><a href="#" class="weibo"></a><a href="#" class="wei"></a><a href="#" class="weixin"></a><strong class="down"></strong>
+				</div>
+				<div class="topright clear">
+					<a href="#">登录</a><a href="#">注册</a><strong class="tu1"></strong><a href="#">我的订单</a><strong class="tu2"></strong><a href="#">收藏夹</a><strong class="tu3"></strong><a href="#">在线客服</a><strong class="tu4"></strong><a href="#">客服电话：400-888-8888</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="toptu"><a href="#"></a></div>
+		<!--搜索-->
+		<div class="header clear">
+			<div class="login"><a href="#"><img src="images/ico/logo.jpg" /></a></div>
+			<div class="search">
+			<div class="inputleft clear">
+				<input type="" name="" id="" value="请输入搜索关键字" />
+				<input type="submit" id="" name=""  value="搜   索"/>
+			</div>
+			<div class="text"><a href="#"><span>生日礼物</span></a><a href="#">巧克力</a><a href="#">鲜花</a><a href="#">手表</a><a href="#"><span>项链\吊坠</span></a><a href="#">家具装饰</a><a href="#">炭雕摆饰</a></div>
+		</div>
+			<div class="loginright clear">
+				<a href="#">
+					<strong class="car"></strong>
+					<span class="span1">购物车</span>
+					<span class="span2">3</span>
+				</a>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="nav">
+			<dl class="clear">
+				<dt><a href="#">全部商品分类</a></dt>
+				<dd ><a href="index.html">首页</a></dd>
+				<dd class="first"><a href="personal.html">个人福利</a></dd>
+				<dd><a href="family.html">家庭福利</a></dd>
+				<dd><a href="gongsi.html">公司福利</a></dd>
+				<dd><a href="#">兑换专区</a></dd>
+				<dd><a href="#">特价专卖</a></dd>
+			</dl>
+		</div>
+		<!--banner-->
+		<div class="banner">
+			<div class="bannerimg">
+			<div style=" background:url(images/add/company1.jpg) no-repeat center top;"><a href="#"></a></div>
+            <div style=" background:url(images/add/company2.jpg) no-repeat center top;"><a href="#"></a></div>
+            <div style=" background:url(images/add/company3.jpg) no-repeat center top;"><a href="#"></a></div>
+		    </div>
+		    <div class="tipspan"><span>爱心套头毛衣</span><span>爱心套头毛衣</span><span>爱心套头毛衣</span></div>
+		</div>
+		
+		<!--今日-->
+		<div class="box w">
+				<div class="top1 clear"><strong></strong><span>今日上新</span></div>
+				<div class="main w clear">
+					<div class="article">
+						<div class="one-1 clear">
+						<dl>
+							<dt><a href="#"><img src="images/product/b1.jpg" /></a></dt>
+                            <dd class="one-1-1"><a href="#">专柜正品美国费雪声光安抚小海马宝宝音乐胎教早教玩偶婴儿童玩具</a></dd>
+                            <dd class="one-1-2"><a href="#">+ 今日福利，速速入手</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="#"><img src="images/product/b2.jpg" /></a></dt>
+                            <dd class="one-1-1"><a href="#">专柜正品美国费雪声光安抚小海马宝宝音乐胎教早教玩偶婴儿童玩具</a></dd>
+                            <dd class="one-1-2"><a href="#">+ 今日福利，速速入手</a></dd>
+						</dl>
+						</div>
+						<div class="one-2"><img src="images/product/c1.jpg" /></div>
+						<div class="one-3 clear">
+						<dl>
+							<dt><a href="#"><img src="images/product/b3.jpg" /></a></dt>
+                            <dd class="one-3-1"><a href="#">专柜正品美国费雪声光安抚小海马宝宝音乐胎教早教玩偶婴儿童玩具<strong>￥259.00</strong></a></dd>
+                            <dd class="one-3-2"><a href="#"><strong></strong><span>进入福利</span></a></dd>
+						</dl>
+						<dl>
+							<dt><a href="#"><img src="images/product/b4.jpg" /></a></dt>
+                            <dd class="one-3-1"><a href="#">专柜正品美国费雪声光安抚小海马宝宝音乐胎教早教玩偶婴儿童玩具<strong>￥259.00</strong></a></dd>
+                            <dd class="one-3-2"><a href="#"><strong></strong><span>进入福利</span></a></dd>
+						</dl>	
+						</div>
+					</div>
+					<div class="sides"></div>
+					
+				</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript">
+		//banner	
+		var index=0;
+		 var count=$(".bannerimg div").length;
+			$(".bannerimg div").hide().eq(0).show();
+			$(".tipspan span").eq(0).addClass("active");
+		   setInterval(function(){
+		   	index=(index+1)%count;
+		   	 $(".bannerimg div").hide();
+		   	 $(".bannerimg div").eq(index).fadeIn(); 
+		   	 $(".tipspan span").removeClass("active");
+		   	 $(".tipspan span").eq(index).addClass("active");
+		   },3000);
+		   
+		</script>
+		
+	</body>
+</html>
