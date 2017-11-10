@@ -63,7 +63,11 @@
 	height: 320px;
 	padding: 12px;
     box-sizing: border-box;
+    margin-right: 10px;
     background-color: yellow;
+}
+.imgshow li:nth-child(5n){
+	margin-right: 0px;
 }
 .li-1{
 	position: relative;
