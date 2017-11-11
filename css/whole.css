@@ -239,6 +239,14 @@ ul li{
 .nav .first{
 	background-color: #f15500;
 }
+.tp{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+.tp a{
+	color: #1d7ad9;
+}
 
 /*底部*/
 .footadd{

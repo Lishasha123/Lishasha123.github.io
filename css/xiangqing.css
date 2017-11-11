@@ -1,0 +1,99 @@
+.main{
+	height: 600px;
+	background-color: red;
+}
+.box{
+	
+}
+.box-left{
+	float: left;
+	width: 400px;
+}
+.tupian{
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+.tupian img{
+	width: 400px;
+	height: 400px;
+}
+.small{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+}
+
+.big{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	border: solid 1px #dddddd;
+	background-image:url(../images/product/jqzoomlist.jpg);
+	background-size: 800px 800px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	display: none;
+}
+.tupian:hover .small{
+	display: block;
+}
+.tupian:hover .big{
+	display: block;
+}
+.ps{
+	margin-top: 10px;
+	width: 400px;	
+}
+.zuoyi{
+	 float:left;
+	 width:8px; 
+	 height:20px;
+	 background:url(../images/ico/pay-icon.png) no-repeat -112px -72px;
+	 cursor:pointer;
+	 margin:30px 15px 0 0;
+}
+.youyi{ 
+	float:right; 
+	width:8px; 
+	height:20px; 
+	background:url(../images/ico/pay-icon.png) no-repeat -132px -72px; 
+	cursor:pointer; 
+	margin:30px 0 0 0;
+}
+
+.showimg{
+	float: left;
+	width: 354px;
+	height: 78px;
+	margin: 0px auto;
+	overflow: hidden;
+	position: relative;
+}
+.list{
+	position: absolute;
+	width: 3600px;
+}
+.list li{
+	float: left;
+	margin-right: 14px;
+	width: 76px;
+	height: 76px;
+	border: solid 1px #dddddd;
+}
+.list li:nth-child(4n){
+	margin-right: 0px;
+}
+.list li img{
+	width: 76px;
+	height: 76px;
+}
+.list li:hover{
+	border: solid 1px #ff7700;
+}
