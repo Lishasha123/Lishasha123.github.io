@@ -1,0 +1,391 @@
+.banner{
+	width: 100%px;
+	height: 420px;
+	position: relative;
+}
+.bannerimg{
+   margin-top: 12px;	
+	
+}
+.bannerimg div{
+	width: 100%px;
+	height: 420px;
+}
+.tipspan{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -450px;
+}
+.tipspan span{	
+	display: inline-block;
+	width: 290px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin-right: 10px;
+	background-color:#664b0c;
+	opacity: 0.8;
+	color: #ffffff;
+}
+.tipspan span.active{
+	background-color: #315493;
+	opacity: 0.6;
+}
+/*主题*/
+.box{
+	margin-top: 10px;
+	width: 100%;
+	background:url(../images/ico/salebg.jpg) repeat;
+}
+.main{
+	padding: 14px 0px;
+}
+/*1*/	
+.main-1{
+	height: 704px;
+    background-color: #e1005a;
+    padding: 0px 10px;
+}
+.duihuan{
+	color: #ffffff;
+	line-height: 40px;
+}
+.main-1-1 dl{
+	float: left;
+	width: 560px;
+	height: 235px;
+	padding: 0px 10px;
+	background-color: #ffffff;
+}
+.main-1-1 dl:first-child{
+	margin-right: 10px;
+}
+.main-1-1 dl dt{
+	float: left;
+	width: 225px;
+	height: 225px;
+	padding: 5px;
+	margin-right: 10px;
+}
+.main-1-1 dl dt img{
+	width: 225px;
+	height: 225px;
+}
+.price{
+	margin-top: 20px;
+	color: #E1005A;
+	
+}
+.price span{
+	font-family: "微软雅黑";
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.cankao{
+	line-height: 16px;
+	font-size: 12px;
+}
+.cankao span{
+	text-decoration: line-through;
+}
+.name{
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 16px;
+}
+.name span{
+	color: #E1005A;
+}
+.num{
+	font-size: 12px;
+	margin-top: 15px;
+}
+.num span{
+	color: #E1005A;
+}
+.buy a{
+	display:inline-block; 
+	width:210px; 
+	height:35px; 
+	line-height:35px; 
+	text-align:center; 
+	font-family:"微软雅黑"; 
+	font-size:16px;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	background-color:#E1015A;
+	color:#fff; 
+	margin-top:10px;
+}
+.buy a:hover{
+	background-color: #d1005A;
+}
+.main-1-2{
+	margin-top: 10px;
+}
+.main-1-2 dl{
+	float: left;
+	width: 245px;
+	height: 366px;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-right: 10px;
+}
+.main-1-2 dl:last-child{
+	margin-right: 0px;
+}
+.main-1-2 dl dt img{
+	width: 245px;
+	height: 245px;
+}
+.price2{
+	font-size: 16px;
+	color: #E1005A;
+	margin-top: 5px;
+}
+.price2 span{
+	font-size: 22px;
+	margin-right: 5px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.name2{
+	font-size: 12px;
+	line-height: 16px;
+}
+.name2 span{
+	color: #E1005A;
+}
+.num2{
+	font-size: 12px;
+	line-height: 16px;
+}
+.num2 span{
+	color: #E1005A;
+}
+.buy2 a{
+    display:inline-block; 
+	width:245px; 
+	height:35px; 
+	line-height:35px; 
+	text-align:center; 
+	font-family:"微软雅黑"; 
+	font-size:16px;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	background-color:#E1015A;
+	color:#fff; 
+	margin-top:10px;	
+}
+/*2*/
+.main-2{
+	margin-top: 20px;
+}
+.left-one{
+	width: 296px;
+	margin-right: 6px;
+	float: left;
+}
+.tops{
+	width: 296px;
+	height: 128px;
+}
+.tops img{
+	width: 296px;
+	height: 128px;
+}
+.neirong{
+	 background:url(../images/ico/salebg1.png) repeat-y;
+	 width:282px; 
+	 padding:0 7px 10px 7px;
+}
+.neirong dl{
+	padding: 15px 0px;
+	margin: 0px 21px;
+	border-bottom: dashed 1px #dddddd;
+		
+}
+.neirong dl dt img{
+	width: 240px;
+	height: 240px;
+}
+.name3{
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.price3 {
+	margin-top: 10px;
+}
+.price3 span{
+	float: left;
+	display: block;
+	width: 80px;
+	height: 20px;
+	background-color: #ff7700;
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 20px;
+	border-radius: 10px;
+	margin-right: 60px;
+}
+.price3 strong{
+	float: left;
+	background:url(../images/ico/whole.png) no-repeat -218px 0; 
+	width:17px; 
+	height:15px; 
+	margin-right: 5px;
+	margin-top:2px;
+}
+.price3 i{
+	margin-top:3px;
+	float: left;
+	font-size: 12px;
+	font-style:normal;
+}
+.more{ 
+	 cursor:pointer;
+	 background:url(../images/ico/salebg2.png) no-repeat;
+	 width:296px; 
+	 height:42px; 
+	 line-height:35px;
+	 font-size: 12px;
+}
+.more span{ 
+	float:left; 
+	width:100px; 
+	color:#fff; 
+	padding-left:95px;
+	}
+.more strong{
+	 background:url(../images/ico/whole.png) no-repeat -263px -244px;
+	 width:8px; 
+	 height:4px;
+	 float:left; 
+	 margin-top:15px;
+}
+.more2{ 
+     cursor:pointer;
+	 background:url(../images/ico/salebg2.png) no-repeat; 
+	 width:296px; 
+	 height:42px;
+	 line-height:35px;
+	 font-size: 12px;
+}
+.more2 a{ 
+	float:left;
+	width:100px; 
+	color:#fff; 
+	padding-left:95px;
+}
+.more2 strong{ 
+	background:url(../images/ico/whole.png) no-repeat -289px 0;
+	width:4px;
+	height:8px;
+	float:left;
+	margin-top:11px;
+}
+.right-one{
+	margin-top: 90px;
+	float: right;
+	padding-right: 5px;
+}
+.right-one-1{
+	width: 270px;
+	padding: 30px 0px;
+	border-radius: 10px;
+	background-color: #aece24;
+}
+
+.num-1{
+	padding: 0px 30px;
+	position: relative;
+}
+.num-1 dl{
+	color: #ffffff;
+}
+.num-1 dl dt{
+	font-size: 18px;
+	
+}
+.num-1 dl dd{
+	padding-left: 30px;
+	font-size: 12px;
+	line-height: 28px;
+	cursor: pointer;
+}
+.num-1 dl dd.active{
+	color: #E1005A;
+}
+.num-1 ul{
+	width: 97px;
+    border-radius: 10px;
+	background-color: #ffffff;
+}
+.w-1{
+	position: absolute;
+	left: 120px;
+	top: 20px;
+}
+.w-2{
+	position: absolute;
+	left: 120px;
+	top: 40px;
+}
+.w-3{
+	position: absolute;
+	left: 120px;
+	top: 60px;
+}
+.w-4{
+	position: absolute;
+	left: 120px;
+	top: 80px;
+}
+.num-1 ul li{
+	padding: 10px 10px;
+}
+.right-one-2{
+	width: 270px;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+}
+.title-one{
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 25px;
+	padding-top: 10px;
+	color: #959595;
+	font-weight: bold;
+}
+.right-one-2 dl{
+	border-bottom: solid 1px #dddddd;
+	padding: 10px 25px;
+}
+.right-one-2 dl dt img{
+	width: 220px;
+	height: 220px;
+}
+.name4{
+	font-size: 12px;
+	line-height: 22px;
+}
+.price4{
+	margin: 10px 0px;
+	color: #959595;	
+	
+}
+.price4 strong{
+	color: #ff7700;
+	margin-right: 10px;	
+}	
+.price4 span{
+	color: #ff7700;
+}
