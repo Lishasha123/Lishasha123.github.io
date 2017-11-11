@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/whole.css" />
+		<link rel="stylesheet" href="css/xiangqing.css" />
+		
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-1 clear">
+				<div class="topleft clear">
+					<span>关于我们</span><a href="#" class="weibo"></a><a href="#" class="wei"></a><a href="#" class="weixin"></a><strong class="down"></strong>
+				</div>
+				<div class="topright clear">
+					<a href="#">登录</a><a href="#">注册</a><strong class="tu1"></strong><a href="#">我的订单</a><strong class="tu2"></strong><a href="#">收藏夹</a><strong class="tu3"></strong><a href="#">在线客服</a><strong class="tu4"></strong><a href="#">客服电话：400-888-8888</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="toptu"><a href="#"></a></div>
+		<!--搜索-->
+		<div class="header clear">
+			<div class="login"><a href="#"><img src="images/ico/logo.jpg" /></a></div>
+			<div class="search">
+			<div class="inputleft clear">
+				<input type="" name="" id="" value="请输入搜索关键字" />
+				<input type="submit" id="" name=""  value="搜   索"/>
+			</div>
+			<div class="text"><a href="#"><span>生日礼物</span></a><a href="#">巧克力</a><a href="#">鲜花</a><a href="#">手表</a><a href="#"><span>项链\吊坠</span></a><a href="#">家具装饰</a><a href="#">炭雕摆饰</a></div>
+		</div>
+			<div class="loginright clear">
+				<a href="#">
+					<strong class="car"></strong>
+					<span class="span1">购物车</span>
+					<span class="span2">3</span>
+				</a>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="nav">
+			<dl class="clear">
+				<dt><a href="#">全部商品分类</a></dt>
+				<dd ><a href="index.html">首页</a></dd>
+				<dd><a href="personal.html">个人福利</a></dd>
+				<dd class="first"><a href="family.html">家庭福利</a></dd>
+				<dd><a href="gongsi.html">公司福利</a></dd>
+				<dd><a href="duihuan.html">兑换专区</a></dd>
+				<dd><a href="sale.html">特价专卖</a></dd>
+			</dl>
+		</div>
+		
+		<!--首页开始-->
+	   <div class="tp w"><a href="index.html">首页</a>&nbsp;-&nbsp;<a href="#">公司福利</a>&nbsp;-&nbsp;<a href="#">办公用品</a>&nbsp;-&nbsp;收纳用品</div>
+	   <div class="main w">
+	   	<div class="box">
+	   		<div class="box-left">
+	   			<div class="tupian">
+	   			<img src="images/product/jqzoomlist.jpg"/>
+	   			<div class="small"></div>
+	   			<div class="big"></div>
+	   			</div>
+	   			<div class="ps clear">
+	   			<div class="zuoyi"></div>
+	   			<div class="showimg clear">
+	   			<ul class="list clear">
+	   				<li><img src="images/product/jqzoomlist_01.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_02.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_03.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_04.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_01.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_02.jpg"/></li>
+	   				<li><img src="images/product/jqzoomlist_03.jpg"/></li>
+	   			</ul>
+	   			</div>
+	   			<div class="youyi"></div>
+	   			</div>
+	   		</div>
+	   		<div class="box-right"></div>
+	   	</div>
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   	
+	   </div>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<script type="text/javascript">
+		var width=$(".showimg").width();
+		var num=$(".list li").length;
+		var pagemax=Math.ceil(num/4);
+		var page=0;
+		$(".zuoyi").click(function(){
+			page=(page-1+pagemax)%pagemax;
+			$(".list").animate({left:width*page*-1+"px"},500);
+		});
+		$(".youyi").click(function(){
+			page=(page+1)%pagemax;
+			$(".list").animate({left:width*page*-1+"px"},500);
+		});
+		$(".list li img").hover(function(){
+		var src=$(this).attr("src");
+		    $(".tupian img").attr("src",src);
+		    $(".big").css("background-image",'url('+src+')');
+		});
+		//放大
+		$(".tupian").on("mousemove",function(e){
+			var x=e.pageX-this.offsetLeft-100;
+			var y=e.pageY-this.offsetTop-100;
+			x=x<0?0:x;
+			x=x>200?200:x;
+			y=y<0?0:y;
+			y=y>200?200:y;
+			console.log(x);
+			$(".small").css("left",x+"px");
+			$(".small").css("top",y+"px");
+			$(".big").css("background-position-x",-2*x+"px");
+			$(".big").css("background-position-y",y*-2+"px");
+			console.log(-2*x+"px"+y*-2+"px");
+		})
+		
+	</script>
+	
+	</body>
+</html>
