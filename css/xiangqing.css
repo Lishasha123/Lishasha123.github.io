@@ -1,10 +1,4 @@
-.main{
-	height: 600px;
-	background-color: red;
-}
-.box{
-	
-}
+
 .box-left{
 	float: left;
 	width: 400px;
@@ -96,4 +90,403 @@
 }
 .list li:hover{
 	border: solid 1px #ff7700;
+}
+.box-right{
+	float: right;
+	width: 730px;
+	height: inherit;
+	margin-right: 20px;
+}
+.shichang{
+	width: 525px;
+	padding: 10px 20px;
+	background-color: #dddddd;
+}
+.price input{
+	padding: 5px;
+	outline: none;
+	text-align: center;
+}
+.youhui{
+	margin-top: 14px;
+}
+.youhui strong{
+	background-color: #FF7700;
+	padding: 5px 3px;
+	color: #ffffff;
+}
+.youhui span{
+	color: #0000FF;
+}
+.colors{
+	
+	padding-top:10px;
+}
+.colors strong{
+	float: left;
+	line-height: 36px;
+	margin-right: 10px;
+}
+.colors ul{
+	float: left;
+	width: 480px;
+}
+.colors ul li{
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+	font-size: 12px;
+	border: solid 1px #dddddd;	
+}
+.colors ul li a{
+	padding: 6px;
+	display: block;
+}
+.colors ul li:hover{
+	border: solid 1px #ff9a00;
+}
+.colors ul li.current{
+	border: solid 1px #ff9a00;
+	position: relative;
+}
+.colors ul li.current b{
+ background: url(../images/ico/pay-icon.png) -104px -30px;
+ width: 13px;
+ height: 13px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
+.count{
+	width: 410px;
+	padding-top: 10px;
+	
+}
+.count strong{
+	float: left;
+	margin-right: 10px;
+	line-height: 36px;
+}
+.count div{
+	margin-right: 20px;
+	line-height: 36px;
+	font-size: 12px;
+}
+.count div input{
+	width: 40px;
+	text-align: center;
+}
+.count div p{
+	float: right;
+	color: #dddddd;
+	
+}
+.cart{
+	padding-left: 70px;
+}
+.addCart{
+	display: inline-block;
+	width: 175px;
+	height: 40px;
+	background-color: #ff7700;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 20px;
+	color: #ffffff;
+	font-size: 16px;
+	text-indent: 17px;
+	background: url(../images/ico/addCart.png) #ff7700 4px 5px no-repeat;
+}
+.addCollect{
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	
+	color: #ffffff;
+	font-size: 16px;
+	background-color: #1D7AD9;
+	background: url(../images/ico/addCart.png) #1d7ad9 0px -102px no-repeat ;
+    text-indent: 20px;
+}
+.addCart:hover{
+	color: #ffffff;
+	background: url(../images/ico/addCart.png) #FF902F 4px 5px no-repeat ;
+}
+.addCollect:hover{
+	color: #ffffff;
+	background: url(../images/ico/addCart.png) #459DF7 0px -102px no-repeat;
+	
+}
+/*产品搭配*/
+.box2{
+	border: solid 1px #dddddd;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+
+.box2-1 a{
+	margin: 0px 20px;
+	font-size: 12px;
+	padding: 4px 0px;
+}
+.box2-1 a.active{
+	color: #ff7700;
+	border-bottom: solid 1px #ff7700;
+}
+.box2-2{
+	margin-top: 10px;
+}
+.box2-2 dl{
+	overflow: hidden;
+	zoom: 1;
+	width:229px;
+	float: left;
+}
+.box2-2 dl dt{
+	width: 76px;
+	height: 76px;
+	float: left;
+	margin-right: 10px;
+}
+.box2-2 dl dt a img{
+	width: 76px;
+	height: 76px;
+}
+.box2-2 dl dd{
+	font-size: 12px;
+	line-height: 18px;
+}
+.box2-2 dl dd span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #dddddd;
+	margin-right: 4px;
+	border: solid 1px gray;
+}
+.text{
+	color: #999999;
+}
+.box2-2 dl dd strong{
+	color: #ff7700;
+}
+.last{
+	margin-top: 5px;
+}
+.last a{
+    float: left;
+	padding: 5px 10px;
+	background-color: #0000FF;
+	color:#ffffff;
+}
+.one{
+	position: relative;
+}
+.heng{
+	position: absolute;
+	left: 110px;
+	top: 33px;
+	width: 60px;
+	height: 10px;
+	background-color: gray;
+}
+.shu{
+	position: absolute;
+	left: 135px;
+	top: 8px;
+	width: 10px;
+	height: 60px;
+	background-color: gray;
+}
+.two{
+	position: relative;
+	margin-right: 15px;
+}
+.heng1{
+	position: absolute;
+	left:13px;
+	top: 25px;
+	width: 50px;
+	height: 10px;
+	background-color: gray;
+}
+.heng2{
+	position: absolute;
+	left: 13px;
+	top: 41px;
+	width: 50px;
+	height: 10px;
+	background-color: gray;
+}
+/*产品展示*/
+.box3{
+	margin-top: 20px;
+}
+.show-left{
+	border: solid 1px #dddddd;
+	float: left;
+	padding: 18px 18px;
+}
+.show-left p{
+	font-size: 18px;
+}
+.tem1 dl{
+	padding: 16px 0px;
+	text-align: center;
+	line-height: 18px;
+	border-bottom: dashed 1px #dddddd;
+}
+.tem1 dl dd strong{
+	color: #ff7700;
+}
+.tem1 dl dt img{
+	width: 186px;
+	height: 186px;
+}
+.show-right{
+	float: right;
+	width: 950px;
+}
+ul.ulfu{
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dddddd;
+	border-top: solid 1px #dddddd;
+}
+ul.ulfu li{
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	padding: 0px 20px;
+	border-left: solid 1px #dddddd;
+}
+ul.ulfu li.active{
+	border-top: solid 2px #0000FF;
+}
+ul.ulfu li.active b{
+	background: url(../images/ico/pay-icon.png) -118px -39px;
+	width: 10px;
+	height: 4px;
+	position: absolute;
+	left: 40px;
+}
+.canshu{
+	margin-top: 20px;
+	padding: 10px 0px;
+	border-bottom: dashed 1px #dddddd;
+	border-top: dashed 1px #dddddd;
+}
+.tuwen{
+	font-size: 18px;
+	line-height: 40px;
+}
+.tuwen span{
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	margin-left: 10px;
+	background-color: #dddddd;
+	position: relative;
+	top: -5px;
+}
+.tuwen strong{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+	background-color: #dddddd;
+}
+.canshu table{
+	margin: 0px auto;
+	border-collapse:collapse;
+}
+.canshu table tr{
+	border: 1px solid #dedede;
+}
+.canshu table td{
+	font-size: 12px;
+	padding: 5px 20px;
+	border: 1px solid #dedede;
+	color: #666666;
+}
+.imgshow{
+	margin-top: 20px;
+	text-align: center;
+}
+.guige{
+	margin-top: 20px;
+/*	text-align: center;*/
+	
+}
+.guige table {width: 100%;
+   border-collapse:collapse;
+}
+.guige table tr {
+	border: 1px solid #dedede;
+    text-align: left;
+    height: 35px;
+    color: #666666;
+    margin: 0px;
+}
+.guige table tr td {
+	border: 1px solid #dedede;
+	padding-left: 20px;
+}
+.guige table tr td.current {
+	background: #edf7ff;
+	text-align: right;
+	padding-left: 40px;
+	padding-right: 15px;
+	width: 20%;
+}
+.pingjia{
+	margin-top: 20px;
+}
+.pingjia dl{
+	overflow: hidden;
+    zoom: 1;
+	padding: 20px 0px;
+	border-bottom: dashed 1px #dddddd;
+}
+.pingjia dl dd div{
+   float: left;	
+}
+.pingjia dl dd div img{
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.pingjia dl dd div p{
+  width: 650px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.backtalk{
+	color: #ff7700;
+}
+.contentPager{
+	margin-top: 20px;
+	text-align: center;
+}
+.contentPager a{
+	padding: 10px;
+	border: solid 1px #dddddd;
+}
+.contentPager a.current{
+	background-color: #dddddd;
+}
+.contentPager a:hover{
+	background-color: #dddddd;
+}
+.inputText{
+	margin:0px 3px;
+	width: 30px;
+	outline: none;
+	padding-left: 5px;
+}
+.inputButton{
+	width: 40px;
 }
