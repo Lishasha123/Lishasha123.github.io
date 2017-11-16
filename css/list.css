@@ -1,0 +1,167 @@
+.box{
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #ECF7FF;
+}
+table.box-1{
+	border-collapse:collapse;
+	width: 1190px;
+	margin: 0px auto;
+	background-color: #ffffff;
+}
+.box-1 tr td{
+	border: solid 2px #ECF7FF;
+	padding:12px 0 12px 20px;
+	color:#666;
+}
+.one{
+	width: 96px;	
+}
+.pinpaileft{
+	float: left;
+	width: 848px;
+	border-top: solid 1px #dddddd;
+	border-left: solid 1px #dddddd;
+}
+.pinpaileft a{
+	position: relative;
+	float: left;
+	display: block;
+	border-bottom: solid 1px #dddddd;
+	border-right: solid 1px #dddddd;
+	width: 104px;
+	height: 54px;	
+}
+.pinpaileft span{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+	width: 106px;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #0000FF;
+}
+.pinpaileft span.active{
+	display: block;
+}
+.pinpaimore{
+	margin-right: 10px;
+	float: right;
+	width: 80px;
+	height: 30px;
+	position: relative;
+}
+.pinpaimore span{
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #0000FF;
+}
+.jiage a{
+	display: inline-block;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+.jiage a:hover{
+	background-color: #0000FF;
+	color: #ffffff;
+}
+.jiage a.current{
+	background-color: #0000FF;
+	color: #ffffff;
+}
+/*产品*/
+.listimg dl{
+  float: left;
+  /*text-align: center;*/
+  border: solid 1px #dddddd;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 10px;	
+}
+.listimg dl dt img{
+	width: 228px;
+	height: 228px;
+}
+.listimg dl:nth-child(5n){
+	margin-right: 0px;
+}
+.listadd{
+  margin: 18px 0px 8px 65px;	
+}
+.listadd a{
+   display:inline-block;
+   width: 85px;
+   height: 22px;
+   background-color:#1D7AD9;
+   border-radius: 10px;	
+}
+.listadd a strong{
+	float:left; 
+	width:13px; 
+	height:11px; 
+	background:url(../images/ico/whole.png) no-repeat -253px 0;  
+	margin:6px 8px 0 18px;
+}
+.listadd a span{
+	line-height:22px; 
+	color:#fff;
+}
+.listadd a:hover{ 
+	background-color:#0D5FB4;
+}
+.listnum{
+	margin: 10px 0px 0px 68px;
+	color: #666;
+}
+.listname a{
+	color: #666;
+	line-height: 22px;
+}
+.listnum strong{
+	float:left; 
+	background:url(../images/ico/whole.png) no-repeat -218px 0; 
+	width:17px; 
+	height:15px; 
+	margin-right:7px;
+}
+.listprice{
+	margin: 10px 0px 0px 60px;
+}
+.listprice strong{
+	color: #ff7700;
+}
+/*上一页*/
+.contentPager{
+	margin-top: 20px;
+	text-align: center;
+}
+.contentPager a{
+	padding: 10px 15px;
+	border: solid 1px #dddddd;
+}
+.contentPager a.current{
+	background-color: #dddddd;
+}
+.contentPager a:hover{
+	background-color: #dddddd;
+}
+.inputText{
+	margin:0px 3px;
+	width: 30px;
+	outline: none;
+	padding-left: 5px;
+}
+.inputButton{
+	width: 40px;
+}
