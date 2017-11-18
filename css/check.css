@@ -1,0 +1,117 @@
+.salecar{
+	
+	padding: 20px 0px;
+}
+.salecar img{
+	float: right;
+}
+.messages{
+	margin: 20px 0px;
+}
+.messages strong{
+	background: url(../images/ico/pay-icon.png) 63px -27px;
+	float: left;
+	width: 20px;
+	height: 18px;
+}
+
+.checkmain1{
+   border-top:solid 1px #dddddd ;
+   background-color: red;
+   padding: 30px 0px 20px 0px;
+}
+.checkmain1-top{
+	width: 1082px;
+	margin: 0px auto;
+}
+
+.checkmain1-top-1{
+	width:1040px;
+	height: 60px;
+	border: solid 2px #ff9c00;
+	background-color: #fff5e9;
+	line-height: 60px;
+	padding: 0px 20px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	
+}
+.checkmain1-top-1 span{
+	color: #fe9b00;
+	font-weight: bold;
+}
+.checkmain1-top-2{
+	padding-left: 78px;
+	margin-top: 14px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.form{
+	width: 740px;
+	margin: 0px auto;
+	margin-top: 20px;
+	
+}
+.form a{
+	padding: 10px 20px;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+}
+.form dl{
+	margin-top: 20px;
+	width: 740px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	border: solid 1px #dddddd;
+	background-color: #f8f8f8;
+}
+
+.form dl dd{
+	margin-top: 20px;
+}
+.checkmain2-top{
+	width: 726px;
+	height: 150px;
+	background-color: #f2f0f1;
+	margin: 0px auto;
+	margin-top: 14px;
+	padding: 0px 107px;
+	
+}
+
+.checkmain2-top dl dd{
+	width: 160px;
+	height: 48px;
+	float: left;
+	border: solid 1px #dddddd;
+	margin: 0px 40px;
+	margin-top: 17px;
+}
+.checkmain2-top dl dd img{
+	width: 160px;
+	height: 48px;
+}
+.checkmain3-top{
+	margin-left: 54px;
+}
+
+.checkmain4-top table{
+	border-collapse:collapse;
+	margin: 0 auto;
+	width: 1100px;
+	color: #666666;
+}
+
+.check-tableTitle{
+  background: #edf7ff;
+  height: 40px;	
+}
+.check-tableContent{
+	border-bottom: #dddddd dashed 1px;
+	height: 110px;
+}
+.productImage{
+	float: left;
+	
+}

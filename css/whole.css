@@ -380,3 +380,49 @@ ul li{
 	color:#f70;
 }
 
+/*猜你喜欢*/
+.zhanshi{
+	border: solid 1px #dddddd;
+	padding: 20px 19px;
+}
+.zhanshi dl{
+	float: left;
+	margin-right: 26px;
+}
+.zhanshi dl dt img{
+	width: 170px;
+	height: 170px;
+}
+.zhanshi dl dd{
+	margin-top: 10px;
+	font-size: 12px;
+}
+.zhanshi dl dd strong{
+	color: #ff7700;
+}
+.zhanshi dl:last-child{
+	margin-right: 0px;
+	
+}
+.like{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.like strong{
+	float: left;
+	background: url(../images/like_04.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.liulan{
+    margin-top: 20px;
+	margin-bottom: 10px;	
+}
+.liulan strong{
+	float: left;
+	background: url(../images/liulan_08.png) no-repeat;
+	width: 29px;
+	height: 20px;
+	margin-right: 10px;
+}
