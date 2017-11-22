@@ -17,7 +17,6 @@
 
 .checkmain1{
    border-top:solid 1px #dddddd ;
-   background-color: red;
    padding: 30px 0px 20px 0px;
 }
 .checkmain1-top{
@@ -107,11 +106,51 @@
   background: #edf7ff;
   height: 40px;	
 }
+.product-name{
+	padding-left: 80px;
+}
 .check-tableContent{
 	border-bottom: #dddddd dashed 1px;
 	height: 110px;
 }
 .productImage{
 	float: left;
+	margin-right: 10px;
 	
+}
+.productName p{
+	margin-top: 14px;
+}
+.checkmain5-top{
+	margin: 0 auto;
+	width: 1100px;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.checkmain5-top table{
+	width:230px;
+	float: right;
+}
+.checkmain5-top table tr{
+	height: 30px;
+}
+.checkmain6-top{
+	margin-top: 20px;
+	background-color: #F2F2F2;
+}
+.checkmain7-top{
+	float: right;
+	line-height: 60px;
+}
+.checkmain7-top a{
+	float: right;
+	width: 100px;
+	height: 60px;
+	background-color: #ff7700;
+	color: #ffffff;
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
 }
